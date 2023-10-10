@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace Eliseekn\LaravelMetrics;
+namespace MaroTdc\LaravelMetrics;
 
 use Carbon\Carbon;
 use DateTime;
-use Eliseekn\LaravelMetrics\Enums\Aggregate;
-use Eliseekn\LaravelMetrics\Enums\Period;
-use Eliseekn\LaravelMetrics\Exceptions\InvalidAggregateException;
-use Eliseekn\LaravelMetrics\Exceptions\InvalidPeriodException;
+use MaroTdc\LaravelMetrics\Enums\Aggregate;
+use MaroTdc\LaravelMetrics\Enums\Period;
+use MaroTdc\LaravelMetrics\Exceptions\InvalidAggregateException;
+use MaroTdc\LaravelMetrics\Exceptions\InvalidPeriodException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
-use Eliseekn\LaravelMetrics\Exceptions\InvalidDateFormatException;
+use MaroTdc\LaravelMetrics\Exceptions\InvalidDateFormatException;
 use Illuminate\Support\Facades\Config;
 
 /**
