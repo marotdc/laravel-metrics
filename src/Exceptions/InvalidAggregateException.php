@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Eliseekn\LaravelMetrics\Exceptions;
+namespace MaroTdc\LaravelMetrics\Exceptions;
 
 use Exception;
 
