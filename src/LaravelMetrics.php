@@ -472,6 +472,10 @@ class LaravelMetrics
     protected function formatDate(Collection $data): Collection
     {
         return $data->map(function ($datum) {
+            if (is_object($datum)) {
+                $datum = (array) $datum;
+            }
+            
             if (!is_numeric($datum['label']) && !DateTime::createFromFormat('Y-m-d',$datum['label'])) {
                 return $datum;
             }
