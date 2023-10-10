@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Eliseekn\LaravelMetrics\Enums;
+namespace MaroTdc\LaravelMetrics\Enums;
 
 enum Aggregate: string
 {
