@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Eliseekn\LaravelMetrics;
+namespace MaroTdc\LaravelMetrics;
 
 use Illuminate\Support\Facades\Facade;
 
