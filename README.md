@@ -7,7 +7,7 @@ Generate easily metrics and trends data of your models for your dashboards.
 
 ## Installation
 ```bash
-composer require eliseekn/laravel-metrics
+composer require marotdc/laravel-metrics
 ```
 
 ## Features
