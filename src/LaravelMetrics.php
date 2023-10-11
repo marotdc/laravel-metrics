@@ -383,7 +383,7 @@ class LaravelMetrics
     public function metrics(): mixed
     {
         $metricsData = $this->metricsData();
-        return is_null($metricsData) ? 0 : $metricsData->data;
+        return (is_null($metricsData) || !isset($metricsData->data)) ? 0 : $metricsData->data;
     }
 
     /**
